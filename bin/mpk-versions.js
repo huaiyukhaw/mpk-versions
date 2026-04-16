@@ -11,7 +11,6 @@
  */
 
 const fs   = require("fs");
-const os   = require("os");
 const path = require("path");
 const AdmZip = require("adm-zip");
 const { XMLParser } = require("fast-xml-parser");
@@ -19,7 +18,7 @@ const { XMLParser } = require("fast-xml-parser");
 // ── Resolve target directory ──────────────────────────────────────────────────
 
 const widgetsDir = path.resolve(
-  process.argv[2] ?? path.join(os.homedir(), "widgets")
+  process.argv[2] ?? path.join(process.cwd(), "widgets")
 );
 
 if (!fs.existsSync(widgetsDir) || !fs.statSync(widgetsDir).isDirectory()) {
