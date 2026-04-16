@@ -13,4 +13,6 @@
   ],
   "dependencies": {
     "adm-zip": "^0.5.10",
-    "fas
+    "fast-xml-parser": "^4.3.6"
+  }
+}
