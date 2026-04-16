@@ -1,0 +1,13 @@
+{
+  "name": "mpk-versions",
+  "version": "1.0.0",
+  "description": "List Mendix widget names and versions from .mpk files",
+  "bin": {
+    "mpk-versions": "./bin/mpk-versions.js"
+  },
+  "keywords": ["mendix", "widget", "mpk"],
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "fast-xml-parser": "^4.3.6"
+  }
+}
