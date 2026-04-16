@@ -5,6 +5,7 @@
   "bin": {
     "mpk-versions": "./bin/mpk-versions.js"
   },
+  "license": "MIT",
   "keywords": [
     "mendix",
     "widget",
@@ -12,6 +13,4 @@
   ],
   "dependencies": {
     "adm-zip": "^0.5.10",
-    "fast-xml-parser": "^4.3.6"
-  }
-}
+    "fas
